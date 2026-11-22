@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FAF8F5" />
+    <meta
+      name="description"
+      content="Салон красоты «Мари» в селе Стрелецкое на ул. Калмыкова, 19. Стрижки, окрашивание, уход за волосами и детские стрижки рядом с Белгородом."
+    />
+    <meta
+      name="keywords"
+      content="салон красоты Стрелецкое, парикмахерская Стрелецкое, окрашивание Белгород, стрижка Калмыкова 19"
+    />
+    <meta property="og:title" content="Салон красоты «Мари» — Стрелецкое" />
+    <meta
+      property="og:description"
+      content="Стильные стрижки и бережное окрашивание в селе Стрелецкое."
+    />
+    <meta property="og:type" content="website" />
+    <title>Салон красоты «Мари» в Стрелецком | ул. Калмыкова, 19</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Мари — на главную">
+          <span class="brand-name">МАРИ <span class="brand-scissors" aria-hidden="true">✂</span></span>
+          <span class="brand-note">салон красоты • Стрелецкое</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Основная навигация">
+          <a href="#services">Услуги</a>
+          <a href="#works">Работы</a>
+          <a href="#masters">Мастера</a>
+          <a href="#about">О салоне</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="header-phone" data-phone-link href="tel:+74720000000">
+            <span data-phone-display>+7 (472) 000-00-00</span>
+          </a>
+          <div class="social-header" aria-label="Социальные сети">
+            <a class="social-link" data-telegram-link href="#" aria-label="Telegram" target="_blank" rel="noreferrer">TG</a>
+            <a class="social-link" data-whatsapp-link href="#" aria-label="WhatsApp" target="_blank" rel="noreferrer">WA</a>
+            <a class="social-link" data-vk-link href="#" aria-label="ВКонтакте" target="_blank" rel="noreferrer">VK</a>
+          </div>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden>
+        <a href="#services">Услуги</a>
+        <a href="#works">Работы</a>
+        <a href="#masters">Мастера</a>
+        <a href="#about">О салоне</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">с. Стрелецкое, ул. Калмыкова, 19 • Ежедневно 09:00 – 20:00</p>
+            <h1 id="hero-title">Салон красоты «Мари»: стильные стрижки и бережное окрашивание рядом с вашим домом</h1>
+            <p class="hero-lead">Красота начинается с внимательного мастерства. Мы подбираем форму и цвет с учётом вас, а не наоборот.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" data-telegram-link href="#" target="_blank" rel="noreferrer">
+                Записаться в Telegram <span aria-hidden="true">↗</span>
+              </a>
+              <a class="button button-outline" data-phone-link href="tel:+74720000000">Позвонить</a>
+            </div>
+            <div class="hero-trust" aria-label="Преимущества">
+              <span><b>5 лет</b> создаём образы</span>
+              <span><b>4 мастера</b> в команде</span>
+              <span><b>09:00–20:00</b> каждый день</span>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img src="assets/images/hero-studio.jpg" alt="Светлый современный интерьер салона красоты" fetchpriority="high" />
+            <div class="hero-badge">
+              <span>Место, где</span>
+              <strong>вам красиво</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Услуги и прайс</p>
+              <h2 id="services-title">Прейскурант</h2>
+            </div>
+            <p>Окончательная цена зависит от длины, плотности волос и сложности работы.</p>
+          </div>
+
+          <div class="service-tabs" role="tablist" aria-label="Категории услуг">
+            <button type="button" role="tab" aria-selected="true" data-category="women">Женский зал</button>
+            <button type="button" role="tab" aria-selected="false" data-category="men">Мужской зал</button>
+            <button type="button" role="tab" aria-selected="false" data-category="kids">Детские стрижки</button>
+            <button type="button" role="tab" aria-selected="false" data-category="color">Окрашивание и уход</button>
+          </div>
+          <div class="service-list" id="service-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section works" id="works" aria-labelledby="works-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Наши работы</p>
+              <h2 id="works-title">Результаты говорят сами</h2>
+            </div>
+            <a class="text-link" data-vk-link href="#" target="_blank" rel="noreferrer">Больше работ в ВК <span>↗</span></a>
+          </div>
+
+          <div class="works-grid">
+            <article class="work-card work-card-featured">
+              <div class="work-image compare" data-compare>
+                <img class="compare-before" src="assets/images/work-cut.jpg" alt="Пример стрижки до изменения" />
+                <img class="compare-after" src="assets/images/work-style.jpg" alt="Пример стрижки после изменения" />
+                <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Сравнить результат до и после" />
+                <span class="compare-label compare-label-before">До</span>
+                <span class="compare-label compare-label-after">После</span>
+              </div>
+              <div class="work-info">
+                <h3>Архитектурная стрижка</h3>
+                <p>Анна • 60 мин • от 1 800 ₽</p>
+              </div>
+            </article>
+            <article class="work-card">
+              <div class="work-image"><img src="assets/images/work-color.jpg" alt="Сложное окрашивание волос" /></div>
+              <div class="work-info"><h3>Сложное окрашивание</h3><p>Елена • 180 мин • от 4 500 ₽</p></div>
+            </article>
+            <article class="work-card">
+              <div class="work-image"><img src="assets/images/work-style.jpg" alt="Дневная укладка волос" /></div>
+              <div class="work-info"><h3>Укладка с объёмом</h3><p>Дарья • 45 мин • от 1 200 ₽</p></div>
+            </article>
+            <article class="work-card">
+              <div class="work-image"><img src="assets/images/work-care.jpg" alt="Уходовая процедура для волос" /></div>
+              <div class="work-info"><h3>Уход и восстановление</h3><p>Анна • 75 мин • от 2 300 ₽</p></div>
+            </article>
+            <article class="work-card">
+              <div class="work-image"><img src="assets/images/work-short.jpg" alt="Короткая женская стрижка" /></div>
+              <div class="work-info"><h3>Короткая стрижка</h3><p>Дарья • 50 мин • от 1 600 ₽</p></div>
+            </article>
+            <article class="work-card">
+              <div class="work-image"><img src="assets/images/work-updo.jpg" alt="Праздничная укладка" /></div>
+              <div class="work-info"><h3>Вечерняя укладка</h3><p>Елена • 60 мин • от 2 000 ₽</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section masters" id="masters" aria-labelledby="masters-title">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="section-kicker">Команда</p><h2 id="masters-title">Наши мастера</h2></div>
+            <p>Подберём специалиста под вашу задачу и покажем результат до начала работы.</p>
+          </div>
+          <div class="masters-grid">
+            <article class="master-card">
+              <div class="master-photo"><img src="assets/images/master-anna.jpg" alt="Мастер Анна" /></div>
+              <p class="master-role">Топ-мастер</p>
+              <h3>Анна Соколова</h3>
+              <p>Стрижки и сложные выходы из цвета • стаж 8 лет</p>
+              <a class="button button-outline" data-master-link="Анна Соколова" href="#" target="_blank" rel="noreferrer">Записаться к мастеру</a>
+            </article>
+            <article class="master-card">
+              <div class="master-photo"><img src="assets/images/master-elena.jpg" alt="Мастер Елена" /></div>
+              <p class="master-role">Колорист</p>
+              <h3>Елена Морозова</h3>
+              <p>Окрашивание, блонд и восстановление • стаж 6 лет</p>
+              <a class="button button-outline" data-master-link="Елена Морозова" href="#" target="_blank" rel="noreferrer">Записаться к мастеру</a>
+            </article>
+            <article class="master-card">
+              <div class="master-photo"><img src="assets/images/master-daria.jpg" alt="Мастер Дарья" /></div>
+              <p class="master-role">Стилист</p>
+              <h3>Дарья Белова</h3>
+              <p>Женские стрижки, укладки и причёски • стаж 5 лет</p>
+              <a class="button button-outline" data-master-link="Дарья Белова" href="#" target="_blank" rel="noreferrer">Записаться к мастеру</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why" id="about" aria-labelledby="why-title">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="section-kicker">О салоне</p><h2 id="why-title">Почему выбирают «Мари»</h2></div>
+          </div>
+          <div class="benefits-grid">
+            <article class="benefit-card">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3v26M7 8h18M7 24h18M10 12h12v8H10z" /></svg>
+              <h3>Честная цена до начала работы</h3>
+              <p>Сначала диагностика волос, затем согласуем итоговую стоимость до открытия краски.</p>
+            </article>
+            <article class="benefit-card">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3l10 4v7c0 7-4 12-10 15C10 26 6 21 6 14V7zM11 16l3 3 7-8" /></svg>
+              <h3>Стерильность по СанПиН</h3>
+              <p>Одноразовые расходники и трёхэтапная обработка всех инструментов.</p>
+            </article>
+            <article class="benefit-card">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 12h20v13H6zM9 12V8h14v4M12 18h8M16 12v13" /></svg>
+              <h3>Домашний уют</h3>
+              <p>Свежесваренный кофе, ароматный чай и конфеты ждут каждого гостя.</p>
+            </article>
+            <article class="benefit-card">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24h22M8 24V12l8-5 8 5v12M12 24v-7h8v7M11 12h10" /></svg>
+              <h3>Без пробок в центр</h3>
+              <p>Мы в Стрелецком — удобно добраться из Белгорода, не ехать в центр города.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" aria-labelledby="reviews-title">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="section-kicker">Отзывы</p><h2 id="reviews-title">Клиенты говорят лучше нас</h2></div>
+            <a class="button button-outline" href="https://yandex.ru/maps/" target="_blank" rel="noreferrer">Смотреть отзывы на Яндекс Картах</a>
+          </div>
+          <div class="reviews-grid">
+            <article class="review-card"><div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div><blockquote>«Очень уютный салон. Анна услышала, что я хочу, и предложила вариант, который подходит моему типу волос».</blockquote><footer><strong>Марина К.</strong><span>Яндекс Карты</span></footer></article>
+            <article class="review-card"><div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div><blockquote>«Делала сложное окрашивание у Елены. Всё объяснили заранее и показали промежуточный результат. Цвет получился идеальным».</blockquote><footer><strong>Ольга В.</strong><span>2ГИС</span></footer></article>
+            <article class="review-card"><div class="review-stars" aria-label="Оценка 5 из 5">★★★★★</div><blockquote>«Удобное расположение, тёплая атмосфера и аккуратная работа. Стригусь здесь всей семьёй уже несколько месяцев».</blockquote><footer><strong>Алексей Р.</strong><span>Яндекс Карты</span></footer></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="section-kicker">Контакты</p><h2 id="contacts-title">Мы ждём вас в «Мари»</h2></div>
+          </div>
+          <div class="contacts-grid">
+            <div class="contact-info">
+              <div class="contact-block"><span>Адрес</span><strong>Белгородская область, с. Стрелецкое,<br />ул. Калмыкова, 19</strong></div>
+              <div class="contact-block"><span>Время работы</span><strong>Ежедневно • 09:00–20:00</strong></div>
+              <div class="contact-block"><span>Телефон</span><a data-phone-link href="tel:+74720000000"><strong data-phone-display>+7 (472) 000-00-00</strong></a></div>
+              <div class="contact-social">
+                <a class="button button-primary" data-telegram-link href="#" target="_blank" rel="noreferrer">Telegram</a>
+                <a class="button button-outline" data-whatsapp-link href="#" target="_blank" rel="noreferrer">WhatsApp</a>
+                <a class="button button-outline" data-vk-link href="#" target="_blank" rel="noreferrer">ВКонтакте</a>
+              </div>
+            </div>
+            <div class="map-wrap">
+              <iframe
+                title="Карта Яндекс: село Стрелецкое, улица Калмыкова, 19"
+                src="https://yandex.ru/map-widget/v1/?ll=36.476%2C50.596&z=15&l=map&pt=36.476%2C50.596%2Cpm2rdm"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <div class="entrance-preview">
+            <img src="assets/images/entrance.jpg" alt="Пример входа в салон красоты" />
+            <p><strong>Как нас найти</strong><span>Ориентир входа появится здесь после фото фасада</span></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#top"><span class="brand-name">МАРИ</span><span class="brand-note">салон красоты • Стрелецкое</span></a>
+        <p>© <span data-year></span> «Мари» • ул. Калмыкова, 19</p>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </footer>
+
+    <nav class="mobile-sticky-bar" aria-label="Быстрая связь">
+      <a data-phone-link href="tel:+74720000000"><span>Позвонить</span></a>
+      <a data-telegram-link href="#" target="_blank" rel="noreferrer"><span>Telegram</span></a>
+      <a data-whatsapp-link href="#" target="_blank" rel="noreferrer"><span>WhatsApp</span></a>
+    </nav>
+  </body>
+</html>
